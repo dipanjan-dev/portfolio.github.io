@@ -1,11 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&display=swap');
 
-/**
-* Template Name: DevFolio - v4.3.0
-* Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
+
 
 /*--------------------------------------------------------------
 # General
@@ -13,7 +8,7 @@
 body {
   background-color: #132238;
   color: white;
-  font-family: 'Prompt', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 h1,
@@ -23,6 +18,7 @@ h4,
 h5,
 h6 {
   color: white;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .text-v{
@@ -35,6 +31,7 @@ a {
   color: #2F5D62;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 a:hover {
@@ -368,7 +365,7 @@ a:hover {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: rgb(0, 0, 0);
+  background: #132238;
 }
 
 #preloader:before {
@@ -377,7 +374,7 @@ a:hover {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #2F5D62;
+  border-top: 6px solid #f59d2a;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -682,7 +679,7 @@ a:hover {
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #2F5D62;
+  color: #f59d2a;
 }
 
 .navbar-mobile .getstarted {
