@@ -1,0 +1,109 @@
+/* FOR MOBILE SCREEN */
+@media only screen and (max-width: 600px) {
+  .offcanvas{
+    z-index: 1041 !important;
+  }
+
+  .navbar {
+    height: 50px !important;
+    margin-bottom: 0;
+  }
+
+  .main-hero {
+    height: auto;
+  }
+
+  .hero h3 {
+    font-size: 60px !important;
+  }
+
+  .hero img {
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .section-header h3{
+    font-size: 54px;
+    margin-bottom: 50px;
+  }
+  .section-header p {
+    font-size: 14px;
+  }
+
+  .circleWrap {
+    right: 70px;
+    top: 150px;
+    display: none;
+  }
+
+  .circleWrap svg {
+    width: 42vw;
+    height: 42vw;
+  }
+
+  .hero .short-about {
+    font-size: 16px;
+  }
+
+  .marquee {
+    font-size: 88px;
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  .marquee .marquee__group {
+    overflow: hidden !important;
+
+  }
+
+  .about p {
+    font-size: 16px;
+  }
+
+  .vr {
+    display: none;
+  }
+
+  .section-header h3 {
+    font-size: 36px;
+  }
+
+  .contact {
+    display: grid
+  }
+
+  .contact ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start !important;
+    text-align: left !important;
+    margin: 0;
+    padding: 0;
+  }
+
+  .contact ul li {
+    margin-bottom: 15px !important;
+  }
+
+  .contact p {
+    font-size: 32px !important;
+  }
+
+  .contact .para {
+    font-size: 18px !important;
+  }
+
+  .dev-proc-badge {
+    margin-left: 0;
+  }
+  .hire{
+    padding-top: 100px;
+  }
+  .hire .card{
+    padding: 10px;
+  }
+  .hire .card .row{
+    justify-content: center;
+  }
+}
